@@ -14,7 +14,8 @@ export interface User {
     title: string
     subtitle: string
     country: Countries
-    score: number
+    score: number,
+    address: string
 }
 
 export interface FilterParams {

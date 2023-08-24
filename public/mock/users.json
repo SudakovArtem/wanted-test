@@ -5,7 +5,8 @@
     "title": "Brunch this weekend?",
     "subtitle": "<span class='text--primary'>Ali Connors</span> &mdash; I'll be in your neighborhood doing errands this weekend. Do you want to hang out?",
     "country": "usa",
-    "score": 5
+    "score": 5,
+    "address": "273 Woodland Terrace Fair Oaks"
   },
   {
     "avatar": "https://cdn.vuetifyjs.com/images/lists/2.jpg",
@@ -13,7 +14,8 @@
     "title": "Summer BBQ <span class='grey--text text--lighten-1'>4</span>",
     "subtitle": "<span class='text--primary'>to Alex, Scott, Jennifer</span> &mdash; Wish I could come, but I'm out of town this weekend.",
     "country": "russia",
-    "score": 9
+    "score": 9,
+    "address": "Entuziastov, bld. 13/А, appt. 108 Chelyabinsk"
   },
   {
     "avatar": "https://cdn.vuetifyjs.com/images/lists/3.jpg",
@@ -21,7 +23,8 @@
     "title": "Oui oui",
     "subtitle": "<span class='text--primary'>Sandra Adams</span> &mdash; Do you have Paris recommendations? Have you ever been?",
     "country": "usa",
-    "score": 50
+    "score": 50,
+    "address": "397 Nuzum Court Buffalo"
   },
   {
     "avatar": "https://cdn.vuetifyjs.com/images/lists/4.jpg",
@@ -29,7 +32,8 @@
     "title": "Birthday gift",
     "subtitle": "<span class='text--primary'>Trevor Hansen</span> &mdash; Have any ideas about what we should get Heidi for her birthday?",
     "country": "russia",
-    "score": 30
+    "score": 30,
+    "address": "Kamchatskaya, bld. 1, appt. 85 Tyumen"
   },
   {
     "avatar": "https://cdn.vuetifyjs.com/images/lists/5.jpg",
@@ -37,6 +41,7 @@
     "title": "Recipe to try",
     "subtitle": "<span class='text--primary'>Britta Holt</span> &mdash; We should eat this: Grate, Squash, Corn, and tomatillo Tacos.",
     "country": "usa",
-    "score": 21
+    "score": 21,
+    "address": "327 Melody Lane Lively"
   }
 ]

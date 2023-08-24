@@ -25,5 +25,5 @@ npm install
 
 ### Компиляция и hot-reloads для разработки
 ```
-npm run serve
+npm run dev
 ```
