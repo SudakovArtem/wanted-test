@@ -1,6 +1,9 @@
+<script setup lang="ts">
+const date: number = new Date().getFullYear()
+</script>
 <template>
   <v-card
-      flat
+      :flat="true"
       tile
       width="100%"
       class="red lighten-1 text-center"
@@ -8,15 +11,7 @@
     <v-divider></v-divider>
 
     <v-card-text class="white--text">
-      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      {{ date }} — <strong>Vuetify</strong>
     </v-card-text>
   </v-card>
 </template>
-
-<script>
-export default {
-  name: 'Footer',
-
-  data: () => ({}),
-}
-</script>
