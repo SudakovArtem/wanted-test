@@ -14,7 +14,7 @@ const loading: ComputedRef<boolean> = computed(() => usersStore.isLoading)
 
 <template>
   <v-card :loading="loading" :min-height="300">
-    <Transition name="slide-fade">
+    <transition name="slide-fade">
       <v-list v-show="!loading" three-line>
         <v-list-subheader>
           List
@@ -27,7 +27,7 @@ const loading: ComputedRef<boolean> = computed(() => usersStore.isLoading)
           ></v-divider>
         </template>
       </v-list>
-    </Transition>
+    </transition>
   </v-card>
 </template>
 

@@ -27,7 +27,7 @@ onMounted(async () => {
       <page-content/>
     </v-main>
     <v-footer :app="true" v-bind="localAttrs">
-      <PageFooter/>
+      <page-footer/>
     </v-footer>
   </v-app>
 </template>
