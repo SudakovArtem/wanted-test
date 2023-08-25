@@ -5,7 +5,6 @@ import {Scores} from "@/types/User";
 import type {FilterParams, User} from "@/types/User";
 import type {ComputedRef, Ref, UnwrapNestedRefs} from 'vue'
 
-
 export const useUsersStore = defineStore('counter', () => {
     const users: Ref<User[]> = ref([])
     const loading: Ref<boolean> = ref(false)

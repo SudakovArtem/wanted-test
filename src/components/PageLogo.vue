@@ -14,7 +14,3 @@ const props = defineProps<Props>()
       :height="props.height"
   />
 </template>
-
-<style scoped>
-
-</style>

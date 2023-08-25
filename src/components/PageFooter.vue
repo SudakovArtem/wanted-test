@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const date: number = new Date().getFullYear()
 </script>
+
 <template>
   <v-card
       :flat="true"

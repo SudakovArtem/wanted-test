@@ -52,6 +52,3 @@ const onChange = (): void => {
   </form>
 </template>
 
-<style scoped>
-
-</style>

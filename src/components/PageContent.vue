@@ -2,8 +2,8 @@
 import PageLogo from "@/components/PageLogo.vue";
 import UsersFilter from "@/components/UsersFilter.vue";
 import UsersList from "@/components/UsersList.vue";
-
 </script>
+
 <template>
   <v-container>
     <v-row

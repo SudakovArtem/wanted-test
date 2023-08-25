@@ -9,7 +9,6 @@ const usersStore = useUsersStore()
 
 const users: ComputedRef<User[]> = computed(() => usersStore.filteredUsers)
 const loading: ComputedRef<boolean> = computed(() => usersStore.isLoading)
-
 </script>
 
 <template>
