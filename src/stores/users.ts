@@ -1,3 +1,4 @@
+import {FILTER_TIMEOUT, scoreValues} from "@/global";
 import {computed, reactive, ref, watch} from 'vue'
 import {defineStore} from 'pinia'
 import {Scores} from "@/types/User";
@@ -25,9 +26,9 @@ export const useUsersStore = defineStore('counter', () => {
         }
         if (filterParams.score) {
             if (filterParams.score === Scores.Big) {
-                return user.score > 20
+                return user.score > scoreValues[Scores.Big]
             } else if (filterParams.score === Scores.Small) {
-                return user.score < 10
+                return user.score < scoreValues[Scores.Small]
             } else {
                 return user
             }
@@ -48,7 +49,7 @@ export const useUsersStore = defineStore('counter', () => {
                 filterParams[filterParamsKey as keyof FilterParams] = params[filterParamsKey as keyof FilterParams]
             }
             resolve()
-        }, 1000))
+        }, FILTER_TIMEOUT))
         loading.value = false
     }
 

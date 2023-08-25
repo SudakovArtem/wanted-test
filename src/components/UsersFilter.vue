@@ -18,7 +18,7 @@ const filter: UnwrapNestedRefs<FilterParams> = reactive({
 })
 
 const getSelectItemObject = (el: [string, string]): SelectItem => ({
-  title: el[0],
+  title: el[1],
   value: el[1],
 })
 
